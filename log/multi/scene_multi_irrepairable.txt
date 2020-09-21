@@ -1,0 +1,33 @@
+analyzing test patterns...
+
+memory info: memory_0
+# of faults: 10
+layer_0: [2, 17], [4, 8]
+layer_1:
+layer_2: [24, 7], [17, 17]
+layer_3: [8, 31], [18, 5], [7, 14], [14, 12]
+layer_4: [22, 19]
+layer_5:
+layer_6:
+layer_7:
+
+memory info: memory_1
+# of faults: 8
+layer_0:
+layer_1: [9, 27]
+layer_2:
+layer_3: [11, 24], [7, 20], [5, 22], [31, 0], [2, 13]
+layer_4:
+layer_5: 
+layer_6: [25, 9], [25, 8]
+layer_7:
+
+redundancy analysis...
+
+memory info: memory_0
+RA result: repairable!
+repair solution: [0, [1, 1]], [2, [1, 1]], [3, [2, 2]], [4, [1, 0]]
+
+memory info: memory_1
+RA result: irreparable!
+repair solution: 

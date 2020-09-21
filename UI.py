@@ -1,0 +1,210 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(1300, 639)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(360, 91, 81, 31))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.pushButton.setFont(font)
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setGeometry(QtCore.QRect(140, 140, 151, 31))
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        self.pushButton_2.setFont(font)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_3.setGeometry(QtCore.QRect(140, 170, 151, 32))
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        self.pushButton_3.setFont(font)
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_4.setGeometry(QtCore.QRect(140, 200, 151, 32))
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        self.pushButton_4.setFont(font)
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
+        self.textBrowser.setGeometry(QtCore.QRect(560, 10, 721, 261))
+        self.textBrowser.setObjectName("textBrowser")
+        self.textBrowser_2 = QtWidgets.QTextBrowser(self.centralwidget)
+        self.textBrowser_2.setGeometry(QtCore.QRect(560, 320, 721, 261))
+        self.textBrowser_2.setObjectName("textBrowser_2")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(30, 268, 151, 81))
+        self.label.setObjectName("label")
+        self.progressBar = QtWidgets.QProgressBar(self.centralwidget)
+        self.progressBar.setGeometry(QtCore.QRect(40, 610, 1241, 23))
+        self.progressBar.setProperty("value", 1)
+        self.progressBar.setObjectName("progressBar")
+        self.textBrowser_3 = QtWidgets.QTextBrowser(self.centralwidget)
+        self.textBrowser_3.setGeometry(QtCore.QRect(970, 280, 111, 21))
+        self.textBrowser_3.setObjectName("textBrowser_3")
+        self.textBrowser_4 = QtWidgets.QTextBrowser(self.centralwidget)
+        self.textBrowser_4.setGeometry(QtCore.QRect(1150, 280, 131, 21))
+        self.textBrowser_4.setObjectName("textBrowser_4")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(160, 91, 81, 31))
+        self.label_2.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        self.label_3.setGeometry(QtCore.QRect(250, 90, 101, 31))
+        font = QtGui.QFont()
+        font.setPointSize(18)
+        self.label_3.setFont(font)
+        self.label_3.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.label_3.setObjectName("label_3")
+        self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_5.setGeometry(QtCore.QRect(310, 140, 131, 91))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.pushButton_5.setFont(font)
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.textBrowser_5 = QtWidgets.QTextBrowser(self.centralwidget)
+        self.textBrowser_5.setGeometry(QtCore.QRect(970, 590, 111, 21))
+        self.textBrowser_5.setObjectName("textBrowser_5")
+        self.textBrowser_6 = QtWidgets.QTextBrowser(self.centralwidget)
+        self.textBrowser_6.setGeometry(QtCore.QRect(1150, 590, 131, 21))
+        self.textBrowser_6.setObjectName("textBrowser_6")
+        self.clocklabel_1 = QtWidgets.QLabel(self.centralwidget)
+        self.clocklabel_1.setGeometry(QtCore.QRect(920, 280, 41, 16))
+        self.clocklabel_1.setObjectName("clocklabel_1")
+        self.clocklabel_2 = QtWidgets.QLabel(self.centralwidget)
+        self.clocklabel_2.setGeometry(QtCore.QRect(930, 590, 41, 16))
+        self.clocklabel_2.setObjectName("clocklabel_2")
+        self.timelabel_3 = QtWidgets.QLabel(self.centralwidget)
+        self.timelabel_3.setGeometry(QtCore.QRect(1110, 280, 41, 16))
+        self.timelabel_3.setObjectName("timelabel_3")
+        self.timelabel_4 = QtWidgets.QLabel(self.centralwidget)
+        self.timelabel_4.setGeometry(QtCore.QRect(1110, 590, 41, 16))
+        self.timelabel_4.setObjectName("timelabel_4")
+        self.checkBox = QtWidgets.QCheckBox(self.centralwidget)
+        self.checkBox.setGeometry(QtCore.QRect(30, 240, 61, 20))
+        self.checkBox.setObjectName("checkBox")
+        self.checkBox2 = QtWidgets.QCheckBox(self.centralwidget)
+        self.checkBox2.setGeometry(QtCore.QRect(100, 240, 61, 20))
+        self.checkBox2.setObjectName("checkBox_2")
+        self.checkBox3 = QtWidgets.QCheckBox(self.centralwidget)
+        self.checkBox3.setGeometry(QtCore.QRect(170, 240, 61, 20))
+        self.checkBox3.setObjectName("checkBox_3")
+        self.checkBox4 = QtWidgets.QCheckBox(self.centralwidget)
+        self.checkBox4.setGeometry(QtCore.QRect(240, 240, 61, 20))
+        self.checkBox4.setObjectName("checkBox_4")
+        self.checkBox5 = QtWidgets.QCheckBox(self.centralwidget)
+        self.checkBox5.setGeometry(QtCore.QRect(310, 240, 61, 20))
+        self.checkBox5.setObjectName("checkBox_5")
+        self.checkBox6 = QtWidgets.QCheckBox(self.centralwidget)
+        self.checkBox6.setGeometry(QtCore.QRect(380, 240, 61, 20))
+        self.checkBox6.setObjectName("checkBox_6")
+        self.checkBox7 = QtWidgets.QCheckBox(self.centralwidget)
+        self.checkBox7.setGeometry(QtCore.QRect(450, 240, 61, 20))
+        self.checkBox7.setObjectName("checkBox_7")
+        
+        
+        
+        MainWindow.setCentralWidget(self.centralwidget)
+
+        # --------------------------------------------------
+
+        self.pushButton_5.setStyleSheet("background-color: white; border-radius: 5px; border : 1px solid #A4A4A4;")
+        self.retranslateUi(MainWindow)
+        
+        self.pushButton.clicked.connect(self.pbclicked1)
+        self.pushButton_2.clicked.connect(self.pbclicked2)
+        self.pushButton_3.clicked.connect(self.pbclicked3)
+        self.pushButton_4.clicked.connect(self.pbclicked4)
+        self.pushButton_5.clicked.connect(self.pbclicked5)
+        self.checkBoxlist = [self.checkBox,self.checkBox2,self.checkBox3,self.checkBox4,self.checkBox5,self.checkBox6,self.checkBox7]
+        for i in range(7):            
+            self.checkBoxlist[i].stateChanged.connect(self.checkbox_select)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+        # --------------------------------------------------
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "HBMTEST"))
+        self.pushButton.setText(_translate("MainWindow", "Change"))
+        self.pushButton_2.setText(_translate("MainWindow", "DRAM + Base die"))
+        self.pushButton_3.setText(_translate("MainWindow", "Base die logic"))
+        self.pushButton_4.setText(_translate("MainWindow", "DRAM"))
+        self.label.setText(_translate("MainWindow", "TextLabel"))
+        self.label_2.setText(_translate("MainWindow", "Test Mode :"))
+        self.label_3.setText(_translate("MainWindow", "SINGLE"))
+        self.pushButton_5.setText(_translate("MainWindow", "START"))
+        self.clocklabel_1.setText(_translate("MainWindow", "clock"))
+        self.clocklabel_2.setText(_translate("MainWindow", "clock"))
+        self.timelabel_3.setText(_translate("MainWindow", "time"))
+        self.timelabel_4.setText(_translate("MainWindow", "time"))
+        self.checkBox.setText(_translate("MainWindow", "chip 0"))
+        self.checkBox2.setText(_translate("MainWindow", "chip 1"))
+        self.checkBox3.setText(_translate("MainWindow", "chip 2"))
+        self.checkBox4.setText(_translate("MainWindow", "chip 3"))
+        self.checkBox5.setText(_translate("MainWindow", "chip 4"))
+        self.checkBox6.setText(_translate("MainWindow", "chip 5"))
+        self.checkBox7.setText(_translate("MainWindow", "chip 6"))
+
+
+class Ui_PopupWindow(object):
+    def setupUi(self, PopupWindow):
+        PopupWindow.setObjectName("Result")
+        PopupWindow.resize(358, 400)
+        self.centralwidget = QtWidgets.QWidget(PopupWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.textBrowser_pop = QtWidgets.QTextBrowser(self.centralwidget)
+        self.textBrowser_pop.setGeometry(QtCore.QRect(0, 40, 361, 301))
+        self.textBrowser_pop.setObjectName("textBrowser_pop")
+        self.nextButton = QtWidgets.QPushButton(self.centralwidget)
+        self.nextButton.setGeometry(QtCore.QRect(100, 350, 171, 32))
+        self.nextButton.setObjectName("nextButton")
+        self.textBrowser_pop_2 = QtWidgets.QTextBrowser(self.centralwidget)
+        self.textBrowser_pop_2.setGeometry(QtCore.QRect(0, 0, 361, 41))
+        self.textBrowser_pop_2.setObjectName("textBrowser_pop_2")
+        PopupWindow.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(PopupWindow)
+        QtCore.QMetaObject.connectSlotsByName(PopupWindow)
+        self.nextButton.clicked.connect(self.nbclicked)
+
+    def retranslateUi(self, PopupWindow):
+        _translate = QtCore.QCoreApplication.translate
+        PopupWindow.setWindowTitle(_translate("PopupWindow", "Result"))
+        self.nextButton.setText(_translate("PopupWindow", "Next"))
+
+class Ui_Analyzing(object):
+    def setupUi(self, analyzing):
+        analyzing.setObjectName("analyzing")
+        analyzing.resize(360, 147)
+        self.centralwidget = QtWidgets.QWidget(analyzing)
+        self.centralwidget.setObjectName("centralwidget")
+        self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
+        self.textBrowser.setGeometry(QtCore.QRect(0, 0, 361, 121))
+        self.textBrowser.setObjectName("textBrowser")
+        self.progressBar_an = QtWidgets.QProgressBar(self.centralwidget)
+        self.progressBar_an.setGeometry(QtCore.QRect(10, 120, 331, 23))
+        self.progressBar_an.setMaximum(3)
+        self.progressBar_an.setProperty("value", 0)
+        self.progressBar_an.setObjectName("progressBar")
+        analyzing.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(analyzing)
+        QtCore.QMetaObject.connectSlotsByName(analyzing)
+
+    def retranslateUi(self, analyzing):
+        _translate = QtCore.QCoreApplication.translate
+        analyzing.setWindowTitle(_translate("analyzing", "Analyzing_RA"))
+        self.textBrowser.setHtml(_translate("analyzing", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'.AppleSystemUIFont\'; font-size:13pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
+"<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:24pt; font-weight:600;\">Analyzing RA.....</span></p></body></html>"))
+
